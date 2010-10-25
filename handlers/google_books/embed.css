@@ -1,0 +1,60 @@
+.book_viewer {
+  margin: 0 0 1em;
+}
+.book_viewer h3.trigger {
+  margin: 0 0 5px 0;
+  padding: 0 0 0 45px;
+  width: 390px;
+  height: 46px;
+  background: url(images/toggle_background-435x92.gif) no-repeat;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 46px;
+  float: left;
+}
+.book_viewer h3.trigger a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+.book_viewer h3.trigger a:hover {
+  color: #ccc;
+}
+.book_viewer h3.active {
+  background-position: left bottom;
+} 
+.toggle_container {
+  margin: 0px 0px 5px;
+  border: 1px solid #d6d6d6;
+  padding: 5px;
+  width: 423px;
+  overflow: hidden;
+  background: #f0f0f0;
+  font-size: 1em;
+  clear: both;
+}
+.metadata {
+  overflow: auto;
+}
+.book-thumbnail {
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+#content ul.book-metadata {
+  font-size: 0.8em;
+  line-height: 1.2em;
+  list-style-type: none;
+}
+.book-title {}
+.book-author {}
+.book-publisher {}
+.canvas {
+  margin: 5px 0px 0px;
+  clear: left;
+}
+.canvas_footer {
+  margin: 5px 0px 0px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
